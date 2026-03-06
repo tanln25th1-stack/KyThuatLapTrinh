@@ -22,8 +22,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{483ccb52-8ac7-40b0-9bb7-e2b99f22c344}</ProjectGuid>
-    <RootNamespace>buoi2</RootNamespace>
+    <ProjectGuid>{ab157bdf-88e7-4ac1-aaee-cf8cc8394c8a}</ProjectGuid>
+    <RootNamespace>buoi</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
