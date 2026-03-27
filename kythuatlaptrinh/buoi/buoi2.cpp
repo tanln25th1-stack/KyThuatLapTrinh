@@ -7,7 +7,7 @@ struct Person {
 	friend ostream& operator << (ostream& os, const Person& p) {
 		os << "\t+Id:" << p.id << endl;
 		os << "\t+Name:" << p.name << endl;
-		returnos;
+		return 
 	}
 	friend istream& operator >>(istream& in, Person& p) {
 		cout << "Input person information:" << endl;
