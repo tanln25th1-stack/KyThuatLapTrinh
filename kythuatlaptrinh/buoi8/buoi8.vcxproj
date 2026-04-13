@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ab157bdf-88e7-4ac1-aaee-cf8cc8394c8a}</ProjectGuid>
-    <RootNamespace>buoi</RootNamespace>
+    <ProjectGuid>{dfa3f92e-f3cd-4666-bf3c-3a7a9edafadf}</ProjectGuid>
+    <RootNamespace>buoi8</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>buoi7</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,12 +128,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="buoi2.cpp" />
-    <ClCompile Include="buoi3.cpp" />
-    <ClCompile Include="buoi4.cpp" />
-    <ClCompile Include="buoi7.cpp" />
-    <ClCompile Include="LinkedList.cpp" />
-    <ClCompile Include="tan.cpp" />
+    <ClInclude Include="Account.h" />
+    <ClInclude Include="LinkedList.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Buoi7.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
